@@ -6,7 +6,7 @@ Amazon Prime Video, Disney+, etc.) into distinct behavioural personas, using a f
 SAS/STAT statistical workflow — from raw survey data to validated, actionable consumer
 segments.
 
-![Report cover](./images/cover.jpg)
+![Report cover](./cover.jpg)
 
 ## Overview
 
@@ -67,7 +67,7 @@ Selected by the largest jump in semi-partial R² in the cluster-merge history.
 | 2 | 19 | 38% | **The Enthusiasts** — highest scores across the board, especially content variety (6.63) and time-saving (6.58); 78.9% female |
 | 3 | 28 | 56% | **The Balanced Majority** — moderate, broadly satisfied mainstream users; less passionate than Cluster 2 |
 
-![Ward's hierarchical clustering dendrogram](./images/ward_dendrogram.jpg)
+![Ward's hierarchical clustering dendrogram](./ward_dendrogram.jpg)
 
 ### Discriminant analysis — clusters are attitudinal, not demographic
 
@@ -91,7 +91,7 @@ capturing attitudinal preference, not just demographic profiling.
 **Content variety is the single strongest discriminator between segments** (F = 34.11,
 R² = 0.592) — more than price, more than any other attitude tested.
 
-![ANOVA results by variable](./images/anova_results.jpg)
+![ANOVA results by variable](./anova_results.jpg)
 
 ### Chi-square — gender is the only significant demographic association
 
@@ -108,7 +108,7 @@ membership: Cluster 1 is 100% male, Cluster 2 is 78.9% female. *Caveat: SAS flag
 results besides the gender association should be read as exploratory given the small
 sample.*
 
-![Cluster personas](./images/cluster_personas.jpg)
+![Cluster personas](./cluster_personas.jpg)
 
 ## Strategic recommendations
 
@@ -125,7 +125,7 @@ sample.*
   this is the highest-volume, highest-churn-risk segment. **For Cluster 1
   (Access-Only):** prioritize reliability and cross-device access over price promotions.
 
-![Strategic recommendations](./images/strategic_recommendations.jpg)
+![Strategic recommendations](./strategic_recommendations.jpg)
 
 ## Repository structure
 
@@ -133,12 +133,11 @@ sample.*
 .
 ├── SASFinalProject.sas          # Full SAS 9.4 script: import → cleaning → PCA →
 │                                 # Ward clustering → MCA → discriminant → ANOVA → chi-square
-└── images/                      # Selected pages from the final report
-    ├── cover.jpg
-    ├── ward_dendrogram.jpg
-    ├── anova_results.jpg
-    ├── cluster_personas.jpg
-    └── strategic_recommendations.jpg
+├── cover.jpg                    # Selected pages from the final report
+├── ward_dendrogram.jpg
+├── anova_results.jpg
+├── cluster_personas.jpg
+└── strategic_recommendations.jpg
 ```
 
 ## Tech stack
