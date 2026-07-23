@@ -264,4 +264,4 @@ sample.*
 
 ## Course context
 
-Market Research & Analysis — Bologna Business School (2026).
+Statistics — Bologna Business School (2026).
